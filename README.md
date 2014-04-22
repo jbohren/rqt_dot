@@ -18,7 +18,7 @@ Second, publish some dotcode from somewhere, like the command line:
 rostopic pub -r 1 /dotcode std_msgs/String "data: digraph foo { a; b; a -> b; }"
 ```
 
-Third subscribe to a ROS topic by entering it by name and clicking
+Third, subscribe to a ROS topic by entering it by name and clicking
 the `Subscribe` button, and see the result:
 
 ![](doc/rqt_dot.png)
