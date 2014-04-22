@@ -12,15 +12,15 @@ First, open the `rqt_dot` GUI:
 rosrun rqt_dot rqt_dot
 ```
 
-Second, subscribe to a ROS topic by entering it by name and clicking
-the `Subscribe` button.
-
-Third, publish some dotcode from somewhere, like the command line:
+Second, publish some dotcode from somewhere, like the command line:
 
 ```
 rostopic pub -r 1 /dotcode std_msgs/String "data: digraph foo { a; b; a -> b; }"
 ```
 
-Finally, see the result:
+Third subscribe to a ROS topic by entering it by name and clicking
+the `Subscribe` button, and see the result:
 
 ![](doc/rqt_dot.png)
+
+You can stop updates by clicking again on the `Subscribe` button.
