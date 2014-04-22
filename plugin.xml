@@ -1,0 +1,16 @@
+<library path="src">
+  <class name="Dot" type="rqt_dot.dot.Dot" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      An RQT plugin for drawing graphs based on the dot language.
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <label>Dot</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Use to visualize dot graphs over ROS.</statustip>
+    </qtgui>
+  </class>
+</library>
+
