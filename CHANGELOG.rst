@@ -2,8 +2,8 @@
 Changelog for package rqt_dot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2014-12-08)
+------------------
 * Merge branch 'master' of github.com:jbohren/rqt_dot
 * removing test code
 * Update README.md
